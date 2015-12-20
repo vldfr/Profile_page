@@ -13,33 +13,34 @@ body{
 	transform: rotate(360deg);
 }
 header{
-	width: calc(100vw - 13px);
-	position: static;
+	width: calc(100% - 13px);
+	position: fixed;
 	background-color: #8c44e8;
-	height: 80px;
+	height: 70px;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-left: 10px;
-	/*margin-left: -10px;*/
-	margin-right: -5px;
+	margin-left: -10px;
+	/*margin-right: -5px;*/
 	margin-top: -10px;
+	margin-top: -90px;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
 footer{
-	width: calc(100vw - 13px);
+	width: calc(100% - 13px);
 	background-color: #8c44e8;
-	height: 80px;
+	height: 76px;
 	padding-top: 5px;
 	padding-right: 5px;
 	padding-left: 10px;
 	padding-bottom: 5px;
-	/*margin-left: -10px;*/
-	margin-right: -5px;
-	margin-top: -80px;
+	margin-left: -10px;
+	/*margin-right: -5px;*/
+	margin-top: -76px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	clear: both;
 }
@@ -75,13 +76,14 @@ footer{
 }
 #container{
 	/* sum of the height of the footer and header */
-	height: calc(100% - 200px);
+	
+	min-height: calc(100% - 200px);
 	background-color: #5a3eff;
 	width: 80vw;
-	margin: auto;
+	margin: 0 auto;
 	margin-bottom: 100px;
+	margin-top: 90px;
 	display: table;
-	margin-top: 15px;
 	padding: 5px;
 	border-radius: 10px;
 	text-shadow: 0px 0px 2px white;
